@@ -96,6 +96,8 @@ GETUI_APPID、GETUI_APPKEY、GETTUI_APPSECRET 配置key 等信息
 
 * 这里比较关键，因为原生端在收取站内推送的时候做了特殊处理，所以您需要传的消息格式是一个
 
+* 安卓如使用透传导致APP闪退需在 mipmap 下放入 app_icon.png 的图片来解决闪退问题
+
 	```	
 	{"payload":<json字符串>}
 	```
